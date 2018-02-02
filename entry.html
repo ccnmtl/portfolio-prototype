@@ -112,7 +112,7 @@ Skip to main content
 
     <aside class="navbar navbar-expand navbar-dark bg-primary flex-column flex-md-row d-print-none" id="top-institution">
         <div class="container-fluid">
-            <ul class="navbar-univ navbar-nav flex-row">
+            <ul class="navbar-nav flex-row d-none d-md-flex" id="navbar-univ">
                 <li class="nav-item">
                     <a class="nav-link" href="https://www.columbia.edu" target="_blank">COLUMBIA UNIVERSITY <span class="d-none d-sm-inline">IN THE CITY OF NEW YORK</span></a>
                 </li>
@@ -148,11 +148,11 @@ Skip to main content
     </aside>
 
     <header class="container bg-white px-0 d-print-none" id="header-portfolio">
-        <div class="logo-project py-3 d-flex flex-row">
+        <div class="py-3 d-flex flex-row" id="logo-portfolio">
             <img src="img/ctl-avatar.svg" style="height: 70px;" class="d-block" />
             <h1><a href="index.html">STUFF WE MAKE</a></h1>
         </div>
-        <nav class="navbar navbar-expand navbar-light bg-light" id="navbar-portfolio">
+        <nav class="navbar navbar-expand navbar-light bg-white" id="navbar-portfolio">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -178,95 +178,116 @@ Skip to main content
             </header>
             <div class="row" style="margin-top: -4rem;">
                 <div class="col-12 col-sm-10 offset-sm-1 bg-white">
-                <h1 class="bg-white text-center py-2" style="margin: 0 -15px;" id="maincontent">Project Entry Title</h1>
+                    <h1 class="bg-white text-center py-2" style="margin: 0 -15px;" id="maincontent">Project Entry Title</h1>
                 
-                <section class="project-info text-muted border-top border-bottom mb-5">
-                    <dl class="row m-0">
-                        <dt class="col-2">Released: </dt>
-                            <dd class="col-10">MM-DD-YYYY</dd>
-                         <dt class="col-2">URL:</dt>
-                            <dd class="col-10">url</dd>
-                        <dt class="col-2">Infosheet:</dt>
-                            <dd class="col-10">infosheet</dd>
-                   </dl>
-                </section>
+                    <section class="project-info text-muted border-top border-bottom mb-5">
+                        <dl class="row m-0">
+                            <dt class="col-2">Released: </dt>
+                                <dd class="col-10">MM-DD-YYYY</dd>
+                             <dt class="col-2">URL:</dt>
+                                <dd class="col-10">url</dd>
+                            <dt class="col-2">Infosheet:</dt>
+                                <dd class="col-10">infosheet</dd>
+                       </dl>
+                    </section>
                 
-                <section class="overview lead mb-2">
-                <p>
-                Ut sed mattis diam. Nunc nibh nisi, hendrerit maximus nulla nec, tempor pulvinar leo. Morbi eget est et mauris congue efficitur. Proin vestibulum commodo lobortis. Vivamus accumsan pretium lectus at lobortis. Class aptent taciti sociosqu.
-                </p>
-                </section>
+                    <section class="overview lead mb-2">
+                    <p>
+                    Ut sed mattis diam. Nunc nibh nisi, hendrerit maximus nulla nec, tempor pulvinar leo. Morbi eget est et mauris congue efficitur. Proin vestibulum commodo lobortis. Vivamus accumsan pretium lectus at lobortis. Class aptent taciti sociosqu.
+                    </p>
+                    </section>
                 
-                <section class="description mb-5">
-                <p>
-                Donec iaculis lectus ligula, nec tempor mi consequat sit amet. Phasellus interdum congue tellus ac laoreet. Nullam aliquet nulla nisl, ut ornare justo posuere et. Nulla dignissim commodo condimentum. Nullam viverra, metus a blandit pellentesque, arcu risus tincidunt urna, eu pharetra augue ipsum eu nisl. Vivamus sit amet convallis erat. Maecenas faucibus placerat nunc id ultricies. Duis aliquam gravida euismod. Vestibulum vel velit a purus rutrum vulputate et nec diam. Aliquam scelerisque est non justo aliquet, ut blandit ex efficitur. In fermentum mi sed augue pellentesque consectetur.
-                </p>
+                    <section class="description mb-5">
+                    <p>
+                    Donec iaculis lectus ligula, nec tempor mi consequat sit amet. Phasellus interdum congue tellus ac laoreet. Nullam aliquet nulla nisl, ut ornare justo posuere et. Nulla dignissim commodo condimentum. Nullam viverra, metus a blandit pellentesque, arcu risus tincidunt urna, eu pharetra augue ipsum eu nisl. Vivamus sit amet convallis erat. Maecenas faucibus placerat nunc id ultricies. Duis aliquam gravida euismod. Vestibulum vel velit a purus rutrum vulputate et nec diam. Aliquam scelerisque est non justo aliquet, ut blandit ex efficitur. In fermentum mi sed augue pellentesque consectetur.
+                    </p>
 
-                <p>
-                Integer vitae mi sollicitudin, consequat nulla id, elementum ligula. Ut quis posuere mi, eu euismod felis. Donec finibus tellus nec ligula blandit molestie. Vestibulum ullamcorper sollicitudin velit, ac elementum nunc eleifend vel. Etiam quam nulla, finibus ut ornare et, auctor quis justo. Suspendisse in semper massa, at ultrices nisl. Proin ut enim commodo, malesuada massa vitae, mattis nulla. Aenean bibendum a nulla quis vehicula. Suspendisse dapibus mauris eget orci posuere elementum. Pellentesque ut orci massa. Proin massa nunc, fringilla in scelerisque at, dignissim quis purus. Nullam fermentum vulputate posuere. Proin cursus vel ante eget lacinia. Vivamus varius, nibh nec dictum rutrum, dolor purus varius nibh, at placerat libero nulla non nulla. Cras nec malesuada lorem, sed dignissim metus. Mauris vel tellus non justo convallis pulvinar vestibulum sed nibh.
-                </p>
-                </section>
+                    <p>
+                    Integer vitae mi sollicitudin, consequat nulla id, elementum ligula. Ut quis posuere mi, eu euismod felis. Donec finibus tellus nec ligula blandit molestie. Vestibulum ullamcorper sollicitudin velit, ac elementum nunc eleifend vel. Etiam quam nulla, finibus ut ornare et, auctor quis justo. Suspendisse in semper massa, at ultrices nisl. Proin ut enim commodo, malesuada massa vitae, mattis nulla. Aenean bibendum a nulla quis vehicula. Suspendisse dapibus mauris eget orci posuere elementum. Pellentesque ut orci massa. Proin massa nunc, fringilla in scelerisque at, dignissim quis purus. Nullam fermentum vulputate posuere. Proin cursus vel ante eget lacinia. Vivamus varius, nibh nec dictum rutrum, dolor purus varius nibh, at placerat libero nulla non nulla. Cras nec malesuada lorem, sed dignissim metus. Mauris vel tellus non justo convallis pulvinar vestibulum sed nibh.
+                    </p>
+                    </section>
 
                 </div>
             </div>
         </article>
     </main>
 
-    <footer class="container-fluid text-white p-5 mt-5" style="background-color: #000">
-        <div class="d-none d-print-block">
-        <div class="row" aria-hidden="true" role="presentation">
-            <div class="col">
-                <img alt="" src="img/print-logo-ctl.png" class="img-fluid d-inline" />
-            </div>
-            <div class="col">
-                <img alt="" src="img/print-logo-columbia.png" class="img-fluid d-inline" />
-            </div>
-            <div class="col">
-                <img alt="" src="img/print-logo-provost.png" class="img-fluid d-inline" />
-            </div>
-        </div>
-        </div>
-        <div class="row container m-auto">
-            <div class="col-lg d-print-none">
-                <div class="footer-logo d-inline-block mb-4" style="height: 40px">
-                    <a href="https://ctl.columbia.edu" target="_blank">
-                    <img alt="Center for Teaching and Learning at Columbia University" src="img/logo-ctl-white.png" style="height: 100%;" />
-                    </a>
-                </div>
-                <div class="footer-logo d-inline-block mb-4" style="height: 40px">
-                    <a href="https://www.columbia.edu" target="_blank">
-                    <img alt="Columbia University in the City of New York" src="img/logo-columbia.png" style="height: 100%;" />
-                    </a>
-                </div>
-                <div class="footer-logo d-inline-block mb-4" style="height: 40px">
-                    <a href="http://provost.columbia.edu" target="_blank">
-                    <img alt="Office of the Provost" src="img/logo-provost.png" style="height: 100%;" />
-                    </a>
+    <footer role="contentinfo" class="container-fluid mt-5 p-0">
+        <div class="p-5" style="background-color: #ddd;" id="getintouch">
+            <div class="container text-center">
+                <h2>Get in touch with us about...</h2>
+                <div class="row pt-3">
+                    <div class="col-lg py-3 py-lg-0 px-5">
+                        Hybrid Learning Course Redesign and Delivery
+                    </div>
+                    <div class="col-lg py-3 py-lg-0 px-5">
+                        Massive Open Online Courses
+                    </div>
+                    <div class="col-lg py-3 py-lg-0 px-5">
+                        General Information
+                    </div>
                 </div>
             </div>
-            <div class="col-md">
-                <address>
-                    <h5>Visit us</h5>
-                    212 Butler Library<br />
-                    535 West 114th Street<br />
-                    New York, NY 10027<br />
-                </address>
-            </div>
-            <div class="col-md">
-                <address>
-                    <h5>Contact us</h5>
-                        <a href="tel:+1-212-854-1862">
-                            <span class="sr-only">Phone:</span>
-                            1-212-854-1862
-                        </a>
-                        <br />
-                        <a href="mailto:ColumbiaCTL@columbia.edu">
-                            <span class="sr-only">Email:</span>
-                            ColumbiaCTL@columbia.edu
-                        </a>
-                </address>
+        </div>
+        <div class="d-none d-print-block" id="footer-logo-print">
+            <div class="row" aria-hidden="true" role="presentation">
+                <div class="col">
+                    <img alt="" src="img/print-logo-ctl.png" class="img-fluid d-inline" />
+                </div>
+                <div class="col">
+                    <img alt="" src="img/print-logo-columbia.png" class="img-fluid d-inline" />
+                </div>
+                <div class="col">
+                    <img alt="" src="img/print-logo-provost.png" class="img-fluid d-inline" />
+                </div>
             </div>
         </div>
+        <div class="p-5 text-white" style="background-color: #222;" id="ctl-info">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-lg d-print-none">
+                        <div class="mb-4 text-center text-lg-left" style="height: 40px" id="footer-logo">
+                            <a href="https://ctl.columbia.edu" target="_blank">
+                            <img class="h-100" alt="Center for Teaching and Learning at Columbia University" src="img/logo-ctl-white.png" />
+                            </a>
+                        </div>
+                        <div class="mb-4 text-center text-lg-left" style="height: 40px" id="footer-logo">
+                            <a href="https://www.columbia.edu" target="_blank">
+                            <img class="h-100" alt="Columbia University in the City of New York" src="img/logo-columbia.png" />
+                            </a>
+                        </div>
+                        <div class="mb-4 text-center text-lg-left" style="height: 40px" id="footer-logo">
+                            <a href="http://provost.columbia.edu" target="_blank">
+                            <img class="h-100" alt="Office of the Provost" src="img/logo-provost.png" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md mt-4 mt-lg-0 text-center text-lg-left">
+                        <address>
+                            <h5>Visit us</h5>
+                            212 Butler Library<br />
+                            535 West 114th Street<br />
+                            New York, NY 10027<br />
+                        </address>
+                    </div>
+                    <div class="col-md mt-4 mt-lg-0 text-center text-lg-left">
+                        <address>
+                            <h5>Contact us</h5>
+                                <a href="tel:+1-212-854-1862">
+                                    <span class="sr-only">Phone:</span>
+                                    1-212-854-1862
+                                </a>
+                                <br />
+                                <a href="mailto:ColumbiaCTL@columbia.edu">
+                                    <span class="sr-only">Email:</span>
+                                    ColumbiaCTL@columbia.edu
+                                </a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </footer>
 
 
